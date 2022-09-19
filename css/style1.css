@@ -1,0 +1,129 @@
+*
+{ margin: 0;
+  padding: 0;
+}
+
+
+.carousel-inner .combo
+{
+font-size: 1.15rem;
+color: white;
+position:absolute;
+top: 20%;
+left:50%;
+width: 600px;
+text-align: right;
+}
+
+
+#boton2 
+{
+  margin-right: 10%;
+  background-color: green;
+  border: none;
+  font-size: medium;
+  width: 160px;
+  height: 50px; 
+  border-radius: 10%;
+ 
+}
+
+#boton1
+{
+  background-color: transparent;
+  font-size: medium;
+  width: 160px;
+  height: 50px;
+  border-radius: 10%;
+
+}
+
+#img {filter: brightness(30%);}
+
+
+#codoacodo
+{height: 75%;
+position: relative;
+top: 10px;
+left:60px}
+
+#encabezado
+{
+color: white;
+font-size: 20px;
+position: absolute;
+top:30px;
+left: 180px;
+}
+
+#link
+{
+text-decoration: none;
+color: white;
+}  
+
+.menu
+{
+  height: 80px;
+  width: 50%;
+  background-color: rgb(231, 3, 3);
+  display: flex;
+  margin: auto;
+  margin-left: 50%;
+}
+
+.containerheader
+{
+width: 100%;
+height: 90px;
+background-color: rgb(51, 51, 51);
+display: flex;
+}
+
+#navbarheader 
+{
+  height: 80px;
+  width: 100%;  
+  position: relative;
+  margin-left: 60%;
+
+}
+
+.menuheader a
+{
+  color: white;
+  font-size: large;
+  margin-top: 2%;
+}
+
+/*intermadio*/
+
+.medio
+{
+  width: 100%;
+  height: 20px;
+  font-size: 0.9rem;
+  display: flex;
+  margin: auto;
+  justify-content:center
+}
+
+#oradores
+{
+  font-size: 2rem;
+  margin-top: 0%;
+  font-weight: 600;
+}
+
+/*intermedio*/
+
+/*cartas*/
+.container-cards
+{
+  width: 70%;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around
+}
