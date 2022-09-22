@@ -38,6 +38,17 @@ text-align: right;
 
 }
 
+#boton3
+{
+  background-color: transparent;
+  font-size: medium;
+  width: 160px;
+  height: 50px;
+  border-radius: 10%;
+  color:white
+
+}
+
 #img {filter: brightness(30%);}
 
 
@@ -70,6 +81,11 @@ color: white;
   display: flex;
   margin: auto;
   margin-left: 50%;
+}
+
+#comprar-tickets
+{
+  color: green;
 }
 
 .containerheader
@@ -125,5 +141,138 @@ display: flex;
   margin: auto;
   display: flex;
   margin-top: 30px;
+  margin-bottom: 30px;
   justify-content: space-around
 }
+
+
+#B1
+{
+  width: 50px;
+  height: 20px;
+  padding: 0%;
+  margin: 0%;
+  font-size: small;
+  font-weight: bold ;
+  color: white;
+  background-color: rgb(117, 176, 231);
+  border-style: none;
+}
+
+#B2
+{
+  width: 80px;
+  height: 20px;
+  padding: 0%;
+  margin: 0%;
+  font-size: small;
+  font-weight: bold ;
+  color: rgb(0, 0, 0);
+  background-color: rgb(224, 200, 61);
+  border-style: none;
+}
+
+#B3
+{
+  width: 70px;
+  height: 20px;
+  padding: 0%;
+  margin: 0%;
+  font-size: small;
+  font-weight: bold ;
+  color: white;
+  background-color: grey;
+  border-style: none;
+}
+
+#B4 
+{
+  width: 55px;
+  height: 20px;
+  padding: 0%;
+  margin: 0%;
+  font-size: small;
+  font-weight: bold ;
+  color: white;
+  background-color: rgb(218, 66, 55);
+  border-style: none;
+}
+
+.container-final
+{
+width: 100%;
+height: 412px;
+display: flex;
+justify-content: space-around;
+}
+
+
+#hono
+{
+  width:636px;
+}
+
+.textofinal
+{
+width: 710px;
+background-color: rgb(51, 51, 51);
+color: white;
+padding-left: 20px;
+padding-top: 20px;
+height: 404px ;
+}
+
+.formulario
+{
+  width: 50%;
+  margin: auto;
+}
+
+.formulario-container
+{
+  width: 100%;
+  display: flex;
+}
+
+#nombre
+{
+  margin-right: 4%;
+}
+
+#recuerda
+{
+  color: grey;
+  font-size: smaller;
+}
+
+#enviar
+{
+  width: 100%;
+   height: 40px;
+  background-color: rgb(69, 155, 69);
+  color: blanchedalmond;
+
+}
+
+.footer
+{
+  height: 80px;
+  width: 100%;
+  background: -webkit-linear-gradient(180deg, rgb(61, 104, 153),rgb(42, 79, 121),  rgb(42, 79, 121),  rgb(26, 45, 66));
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-nav
+{
+  display: flex;
+}
+
+.footer a
+{
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 20%;
+}
+
