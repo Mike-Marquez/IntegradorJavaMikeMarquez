@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style1.css" rel="stylesheet">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        
+    </head>
+
+    <body>
+
+         <header class="containerheader container-flex">
+           
+                <img src="img/codoacodo.png" alt="imagen codo a codo" id="codoacodo">
+                
+                <div class="encabezado" id="encabezado">
+                    <a href="#" id="link">Conf Bs As</a>   
+                </div>
+                
+                <div class="menuheader" id="menuheader" >
+                    <nav class="navbar navbar-expand-lg" id="navbarheader">
+            
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav" >
+                                <a class="nav-item nav-link" href="#" target="_blank" >La conferencia</a>
+                                <a class="nav-item nav-link" href="#" target="_blank" >Los oradores</a>
+                                <a class="nav-item nav-link" href="#" target="_blank" >El lugar y la fecha</a>
+                                <a class="nav-item nav-link" href="#" target="_blank" >Conviértete en orador</a>
+                                <a class="nav-item nav-link" href="#" target="_blank" id="comprar-tickets">Comprar tickets</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+
+         </header>
+         
+
+         <div class="tamaño centrado" id="cajas">
+
+         <div class="alineado container" > 
+
+         <div class="card border-primary mb-3" style="max-width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Estudiante</h5>
+              <p class="card-text">Tienen un descuento</p>
+              <strong><p id="porcentaje">80%</p></strong>
+              <h6 id="h6">*presentar documentación</h6>
+            </div>
+          </div>
+
+
+          
+          <div class="card border-success mb-3" style="max-width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Trainee</h5>
+              <p class="card-text">Tienen un descuento </p>
+              <strong><p id="porcentaje" >50%</p></strong>
+              <h6 id="h6">*presentar documentación</h6>
+            </div>
+          </div>
+          
+
+          <div class="card border-warning mb-3" style="max-width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Junior</h5>
+              <p class="card-text">Tienen un descuento</p>
+              <strong><p id="porcentaje">15%</p></strong>
+              <h6 id="h6">*presentar documentación</h6>
+            </div>
+          </div>
+          
+         </div>
+
+        </div>
+
+        <!---------------------------------------------------------------------------------->
+
+        <p class="centrado">VENTA</p>
+
+        <p class="centrado" id="valorticket">VALOR DE TICKET $200</p>   
+        
+        <!---------------------------------------------------------------------------------->
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-xl-6">
+                    <input type="text" placeholder="Nombre" id="nombre" class="form-control cajitas">
+                </div>
+
+                <div class="col-xl-6"> 
+                    <input type="text" placeholder="Apellido" id="apellido" class="form-control cajitas" >
+                </div>
+
+            </div>
+            
+            <input type="email" placeholder="Email" style="width:100%" id="email" class="form-control cajitas">
+            
+            <div class="row">
+
+                <div class="col-xl-6">
+                     <p>Cantidad</p>         
+                     <input type="text" placeholder="cantidad"  id="cantidad" class="form-control cajitas">
+                </div>
+                
+                <div class="col-xl-6">
+                    <p>Categoría</p> 
+                      <select class="form-select" placeholder="nombre" id="opciones">
+                        <option value="selecdione">Seleccione</option>
+                        <option value="1">Sin categoria</option>
+                        <option value="2">Estudiante</option>
+                        <option value="3">Trainee</option>
+                        <option value="4">Junior</option>
+                      </select>
+                </div>
+            
+            </div>      
+        
+            <div class="row">
+                    <div class="col-xl-12">
+                    <input type="text" placeholder="Total A Pagar: $" id="resultado" class="form-control" disabled>
+                    </div>    
+            </div>
+
+        <br>
+
+             <div class="row">
+                
+                <div class="col-xl-6">
+                    <input type="button" id="borrar" value="Borrar" onclick="borrar();"  class="btn btn-success btn-lg botonera">
+                </div>    
+
+                <div class="col-xl-6">    
+                     <input type="button" id="calcular" value="Resumen" onclick="calcular();" class="btn btn-success btn-lg botonera">    
+                </div> 
+          
+             </div>       
+        
+        </div>
+
+        
+
+
+                    
+        <footer class="footer container-fluid">
+                        <nav class="navbar navbar-expand-lg" id="navbarheader2">
+                            
+                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav" >
+                                   <a class="nav-item nav-link" href="#" target="_blank" >Preguntas frecuentes</a>
+                                   <a class="nav-item nav-link" href="#" target="_blank" >Contáctanos</a>
+                                   <a class="nav-item nav-link" href="#" target="_blank" >Prensa</a>
+                                   <a class="nav-item nav-link" href="#" target="_blank" >Conferencias</a>
+                                   <a class="nav-item nav-link" href="#" target="_blank" >Términos y condiciones</a>
+                                   <a class="nav-item nav-link" href="#" target="_blank" >Privacidad</a>
+                                   <a class="nav-item nav-link" href="#" target="_blank" >Estudiantes</a>
+                            </div>
+                        </div>
+                    </nav>
+
+        </footer>
+
+
+        <script src="/Integrador/pruebascript.js"></script>
+
+    </body>
+</html>
