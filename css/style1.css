@@ -145,6 +145,23 @@ display: flex;
   justify-content: space-around
 }
 
+.alineado
+{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  width: 50%;
+  color: black;
+
+}
+
+#card
+{
+  width: 500px;
+  height: 500px;
+}
+
 
 #B1
 {
@@ -274,4 +291,93 @@ height: 404px ;
   margin-left: 20px;
   margin-right: 20px;
   width: 20%;
+}
+
+h5
+{
+ text-align: center; 
+}
+
+.centrado
+{
+text-align: center;
+}
+
+#porcentaje
+{
+  font-weight: 00%;
+}
+
+.tamaño
+{
+  width: 50%;
+  justify-content: center;
+  margin-left: 25%;
+}
+
+#cajas div
+{
+  border-radius: 0%;
+}
+
+#valorticket
+{
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+#input
+{
+margin: 3px;
+}
+
+.cajitas
+{
+  align-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cantidad 
+{
+  display: flex
+}
+
+#borrar
+{
+background-color: rgb(157, 216, 63); 
+ border-style: none;
+ width: 100%;
+ height: 35px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ text-align: center;
+ padding: 0%;
+ margin-top: 0%;
+
+}
+
+#calcular
+{
+  background-color: rgb(157, 216, 63); 
+ border-style: none;
+ width: 100%;
+ height: 35px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ text-align: center;
+ padding: 0%;
+ margin-top: 0%;
+ font;
+}
+
+.card
+{
+  margin-left: 10px;
+}
+
+#h6
+{
+  font-size: small;
+  color:grey ;
 }
